@@ -15,10 +15,35 @@ body {
 a {
     text-decoration: none;
 }
+/* common */
+.title-first {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
 
+/* .title-second {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: #10375c;
+}
+.title-third{
+    
+} */
+.desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    color: #575f66;
+}
 .container {
     width: 1170px;
-    max-width: calc(100% -48px); 
+    max-width: calc(100% -48px);
     margin: 0 auto;
 }
 .header {
@@ -106,7 +131,7 @@ a {
     top: 50%;
     transform: translateY(-50%);
 }
-.action{
+.action {
     display: flex;
     align-items: center;
 }
@@ -115,7 +140,7 @@ a {
     display: inline-block;
     min-width: 205px;
     height: var(--height);
-    /* padding: 0 20px; */
+    padding: 0 20px;
     border-radius: 99px;
     border: 1px solid #2e80ce;
     font-size: 1.6rem;
@@ -129,4 +154,207 @@ a {
 .btn:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+/* header bottom */
+.header-bottom {
+    padding-bottom: 110px;
+    display: flex;
+    margin-top: 7.6rem;
+    justify-content: space-between;
+}
+.header-left {
+    width: 44.2%;
+    margin: 60px 0;
+}
+.header-right {
+    width: 46.2%;
+}
+.header__title {
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.header__desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.57;
+    color: #c9d2da;
+    margin-bottom: 38px;
+}
+.btn-buy {
+    font-size: 1.8rem;
+}
+.header-buy__phone {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-left: 38px;
+    text-align: center;
+
+    color: #ffffff;
+}
+.header-right {
+    width: 46.2%;
+    display: flex;
+    position: relative;
+}
+.header-right__img1 {
+    z-index: 1;
+}
+.header-right__img2 {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* z-index: -1; */
+}
+/* Services */
+
+.services {
+    margin-top: 170px;
+}
+
+.title-first {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
+
+/* .title-second {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: #10375c;
+}
+.title-third{
+    
+} */
+.desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    color: #575f66;
+}
+.desc-services {
+    width: 468px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.services-bottom {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.services-item {
+    display: flex;
+    background: #ffffff;
+
+    border-radius: 10px;
+    padding: 21px 20px 20px 22px;
+}
+.services-item__circle {
+    position: relative;
+    width: 85px;
+    height: 60px;
+    background: #eff6fd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    margin-right: 18px;
+}
+
+.services-item__circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.services-bottom__img {
+    width: 48.7%;
+}
+.services-list {
+    width: 40.2%;
+    margin: 55px 0;
+}
+.services-content__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 0.23;
+    color: #10375c;
+}
+.services-content__desc {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #575f66;
+}
+.btn_services {
+    margin-top: 55px;
+}
+
+.services-item--active {
+    background: #ffffff;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
+}
+.services-item__circle--active {
+    background: #2e80ce;
+    box-shadow: 0px 8px 16px rgba(40, 155, 222, 0.15);
+}
+/* works */
+.works {
+    margin-top: 170px;
+    padding: 135px 100px;
+    background-color: #f6fbff;
+}
+.works-title,
+.works-desc {
+    text-align: left;
+}
+.works-desc {
+    margin-top: 18px;
+    margin-bottom: 70px;
+    width: 468px;
+}
+.works-list {
+    display: flex;
+    gap: 30px;
+}
+.works-item {
+    border-radius: 4px;
+    border: 16px solid #EAF6FF ;
+    padding: 43px;
+}
+.works-item:hover{
+    border-color: #2E80CE;
+    transition:.25s all linear;
+}
+.works-item__title {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: #10375c;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.works-item__desc {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+    margin-bottom: 18px;
+}
+.works-item__more {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #2e80ce;
 }

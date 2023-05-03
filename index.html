@@ -85,6 +85,14 @@
             href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
         />
+        <!-- cdn css -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <!-- Link css -->
         <link rel="stylesheet" href="asset/css/reset.css" />
         <link rel="stylesheet" href="asset/css/style.css" />
@@ -106,7 +114,11 @@
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link navbar__link--active">Home</a>
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">Services</a>
@@ -122,11 +134,159 @@
                     <!-- Action -->
                     <div class="action">
                         <a href="#!" class="action__btn">Log in</a>
-                        <a href="#!" class="btn action__btn">Sign Up</a>
-                        
+                        <a href="#!" class="action__btn btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-left">
+                        <h1 class="header__title">
+                            Exceptional dental care for all ages.
+                        </h1>
+                        <div class="header__desc">
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </div>
+                        <div class="header-buy">
+                            <button class="btn btn-buy">Book Online</button>
+                            <span class="header-buy__phone"
+                                >or call (123) 456-7890</span
+                            >
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <img
+                            class="header-right__img1"
+                            src="asset/img/header1.svg"
+                            alt=""
+                        />
+                        <img
+                            class="header-right__img2"
+                            src="asset/img/header2.svg"
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>
         </header>
+        <main>
+            <!-- services -->
+            <section class="services">
+                <div class="container">
+                    <div class="services-top">
+                        <div class="title-first">Our services</div>
+                        <div class="desc desc-services">
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </div>
+                    </div>
+                    <div class="services-bottom">
+                        <img
+                            src="asset/img/sevices.svg"
+                            class="services-bottom__img"
+                        />
+                        <div class="services-list">
+                            <div class="services-item services-item--active">
+                                <div
+                                    class="services-item__circle services-item__circle--active"
+                                >
+                                    <img
+                                        src="asset/img/teeth-white.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="services-content">
+                                    <div class="services-content__title">
+                                        Oral Surgery
+                                    </div>
+                                    <div class="services-content__desc">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-item">
+                                <div class="services-item__circle">
+                                    <img
+                                        src="asset/img/teeth-blue.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="services-content">
+                                    <div class="services-content__title">
+                                        Oral Surgery
+                                    </div>
+                                    <div class="services-content__desc">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-item">
+                                <div class="services-item__circle">
+                                    <img
+                                        src="asset/img/teeth-blue.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="services-content">
+                                    <div class="services-content__title">
+                                        Oral Surgery
+                                    </div>
+                                    <div class="services-content__desc">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn btn_services">All Services</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Works -->
+            <section class="works">
+                <div class="container">
+                    <div class="works-title title-first">How it works</div>
+                    <div class="works-desc desc">
+                        Exceptional dental care for all ages. Your great smile
+                        begins with a great dentist.
+                    </div>
+                    <div class="works-list">
+                        <div class="works-item">
+                            <img src="asset/img/find.svg" alt="" />
+                            <div class="works-item__title">Search doctor</div>
+                            <div class="works-item__desc">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </div>
+                            <a href="#!" class="works-item__more">Learn More</a>
+                        </div>
+                        <div class="works-item">
+                            <img src="asset/img/find-user.svg" alt="" />
+                            <div class="works-item__title">
+                                Find best doctor
+                            </div>
+                            <div class="works-item__desc">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </div>
+                            <a href="#!" class="works-item__more">Learn More</a>
+                        </div>
+                        <div class="works-item">
+                            <img
+                                src="asset/img/Orion_first-aid-kit.svg"
+                                alt=""
+                            />
+                            <div class="works-item__title">Get treatment</div>
+                            <div class="works-item__desc">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </div>
+                            <a href="#!" class="works-item__more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
